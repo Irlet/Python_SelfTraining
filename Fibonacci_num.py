@@ -3,7 +3,7 @@
 # 1st option:
 
 
-def Fib(number):
+def fib(number):
     if number < 1:
         raise ValueError("Number must be positive")
     if number == 1:
@@ -11,15 +11,15 @@ def Fib(number):
     if number == 2:
         return 1
     else:
-        return Fib(number-1) + Fib(number-2)
+        return fib(number-1) + fib(number-2)
 
 
-print(Fib(6))
+print(fib(6))
 
 # 2nd option (faster):
 
 
-def Fib2(number):
+def fib2(number):
     fib_list = [1, 1]
     if number < 1:
         raise ValueError("Number must be positive")
@@ -29,7 +29,7 @@ def Fib2(number):
     return fib_list[number-1]
 
 
-print(Fib2(40))
+print(fib2(40))
 
 
 # Write the first 'n' Fibonacci numbers:

@@ -18,7 +18,7 @@ print(f"Vowels in text: {vowels_in_text}")
 for i in range(len(my_text)):
     if i % 2 != 0:
         every_second_char.append(my_text[i])
-print(f"Every second charakters: {every_second_char}")
+print(f"Every second characters: {every_second_char}")
 
 print("Number of letters in words: ")
 for word in my_text_splitted:

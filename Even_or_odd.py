@@ -6,7 +6,7 @@ def even_or_odd(number):
         return
 
     if number_int == 0:
-        print("Must be defferent from zero")
+        print("Must be different from zero")
     elif number_int % 2 == 0:
         print(f"Number {number_int} is even")
     else:

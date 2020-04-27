@@ -20,15 +20,14 @@ count_arara(8) # -> 'adak adak adak adak' """
 
 
 def count_arara(n):
-    count = []
     if n == 1:
-        count = "anane"
+        arara_numbers = "anane"
     elif n % 2 == 0:
-        count = "adak "*int(n/2)
+        arara_numbers = "adak "*int(n/2)
     else:
-        count = ("adak "*int((n-1)/2) + "anane")
+        arara_numbers = ("adak "*int((n-1)/2) + "anane")
 
-    return count.rstrip()
+    return arara_numbers.rstrip()
 
 
 print(count_arara(2))

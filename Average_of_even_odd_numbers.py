@@ -2,7 +2,7 @@
 raise ValueError ('Numbers count parametr must be greater than zero')
 example: x=3
 start =20
-result = [20,22,24] / x = 22 """
+result = 22 (average of: 20, 22, 24) """
 
 
 def average_of_first_x_even_numbers(x, start):

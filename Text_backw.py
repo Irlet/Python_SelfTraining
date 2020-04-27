@@ -1,10 +1,3 @@
-# exercise 1
-x = ["a", "b", "c", "d"]
-y = ["e", "f", "g", "h"]
-
-print(x[:3]+y[:2])
-
-# exercise 2
 first_text = "Abcdefgh"
 second_text = "Jklmnopq"
 len1 = len(first_text)
